@@ -1,0 +1,53 @@
+@media(min-width:320px) and (max-width:768px){
+    .container-la-chef {
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+    .mimi {
+    width: 300px;
+}
+.mundos-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    line-height: 1.2em;
+}
+footer .container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.contacto-container {
+    display: grid;
+    grid-template-columns: auto;
+    margin: -10px -10px;
+}
+.contacto-titulo h1 {
+    font-size: 25px;
+}
+
+.navbar{
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 0 1rem;
+}
+.logo {
+    width: 120px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.navbar-links{
+    flex-direction:column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1em;
+    width: 100%;
+}
+.marca-titulo {
+    font-size: 20px;
+}
+.marca-subtitulo {
+    display: block;
+    font-size: 13px;
+}
+}

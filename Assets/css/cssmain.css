@@ -5,6 +5,7 @@
 @import url(mundos.css);
 @import url(footer.css);
 @import url(contacto.css);
+@import url(responsive.css);
 :root {
     --pink: #FFB7CE; 
     --strawberry: #FF4B72;
@@ -19,11 +20,16 @@
 ::after {
     box-sizing: inherit;
 }
-body {
+body,
+html {
     padding: 0;
     margin: 0;
     font-family: "DotGothic16", sans-serif;
     box-sizing: border-box;
+    width: 100%;
+}
+section,article{
+    width:100%;
 }
 ul {
     list-style: none;

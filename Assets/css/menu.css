@@ -1,7 +1,11 @@
 .header-container {
     background-color: var(--pink);
     padding-top: 10px;
-    height: 100px;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 .navbar{
     display: flex;
