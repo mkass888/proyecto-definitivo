@@ -1,0 +1,8 @@
+.container-la-chef {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.mimi {
+    width: 600px;
+}

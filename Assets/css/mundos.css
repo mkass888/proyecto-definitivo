@@ -1,0 +1,16 @@
+.mundos-container center {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    line-height: 1.2em;
+}
+.mundos-container h3 {
+    font-size:22px;
+    color:var(--pink);
+}
+.mundos-container i{
+    font-size: 28px;
+}
+.mundos-container .col{
+    padding-top:25px;
+}

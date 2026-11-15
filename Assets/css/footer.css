@@ -1,0 +1,28 @@
+footer{
+    background-color: var(--strawberry);
+    color: var(--white);
+}
+footer .container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.logo-footer {
+    width: 80px;
+    height:80px;
+}
+.social-icons{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--white);
+}
+
+.social-icons li a {
+    color: var(--white);
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+.social-icons li a:hover {
+    color: var(--pink);
+}

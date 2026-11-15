@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 @import url(menu.css);
-
+@import url(la-chef.css);
+@import url(mundos.css);
+@import url(footer.css);
+@import url(contacto.css);
 :root {
     --pink: #FFB7CE; 
     --strawberry: #FF4B72;
@@ -44,5 +47,5 @@ p{
     text-transform: uppercase;
 }
 .pink-text {
-color:var(--pink);
+color:var(--strawberry);
 }

@@ -1,0 +1,52 @@
+.contacto-titulo{
+    max-width: 100%;
+    padding: 5%;
+    background-color: #FF4B72;
+}
+.contacto-titulo h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    padding: -5%;
+    color: white;
+}
+.contacto-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.contacto-container .col {
+    padding: 50px 30px;
+}
+input[type="text"],
+[type="email"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px #5C3A21;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+label {
+    width: 100%;
+    font-size: 16px;
+    color: #FFB7CE;
+    margin: 5px, 0px;
+}
+select {
+    width: 100%;
+    padding: 5px;
+    border: 1px #5C3A21;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+input[type="submit"]{
+    background-color: #FF4B72;
+    border-color: #5C3A21;
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    font-weight: 800;
+}
+input[type="submit"]:hover{
+    background-color: #FFB7CE;
+}
