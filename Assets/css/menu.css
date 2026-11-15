@@ -1,0 +1,49 @@
+.header-container {
+    background-color: var(--pink);
+    padding-top: 10px;
+    height: 100px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1.5rem;
+}
+.navbar-links{
+    color: var(--white);
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar-links li a {
+    color: var(--white)
+}
+.navbar-links li a:hover {
+    color: #FF4B72;
+}
+.navbar-links li a:active {
+    color: var(--pink);
+}
+.logo {
+    width: 72px;
+    height: 72px;
+    image-rendering: pixelated;
+}
+.marca {
+    display: flex;
+    align-items: center; 
+}
+.marca-titulo {
+    color:#FF4B72;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.marca-subtitulo {
+    display: block;
+    padding-left: 10px;
+    color: var(--chocolate);
+}
